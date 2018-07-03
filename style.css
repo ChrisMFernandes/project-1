@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    /* font-family: 'Oswald', sans-serif; */
 }
 
 main {
@@ -16,11 +17,16 @@ main {
     height: 500px;
   }
 
-.paralax {
+/* .parallax {
     height: 500px;
-}
+} */
 
 footer.page-footer {
     background-color: black;
     color: black;
+}
+
+.parallax img { 
+    width: 100%;
+    filter: grayscale(75%); 
 }
